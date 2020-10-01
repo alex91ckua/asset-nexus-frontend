@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6
+            center-xs start-sm start-md start-lg">
+                <app-select [ChartData]="timelineData" (selectboxValueSelected)="childEventClicked($event)" ></app-select>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6
+            center-xs end-sm end-md end-lg">
+                <app-selector-button (selectorOpacityClick)="selectorOpacityClicked($event)" [Selection]="selctorClickedEvent" [dataset]="timelineData"></app-selector-button>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <section class="dashboard-module">
+                    <div class="chart">
+                        <app-line-chart [opacitySelection]="opacityClickedEvent" [Selection]="selctorClickedEvent" [ChartData]="timelineData"></app-line-chart>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+

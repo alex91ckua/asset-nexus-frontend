@@ -1,0 +1,56 @@
+<h1>Documentation, Will and Personel</h1>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <section class="dashboard-module box-row">
+            <div class="welcome-block">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                        <img src="assets/avatars/Gavin.png" />
+                        <h2>Gavin Wall</h2>
+                        <h3>Sr. Customer Manager</h3>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                                <button class="brand">Edit Profile</button>
+                                <button class="brand-alt">Update Profile</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                        <h4>Role</h4>
+                        <p>Will propriator</p>
+                        <h4>Email</h4>
+                        <p>gavin@gmail.com</p>
+                        <h4>Phone</h4>
+                        <p>07927905516</p>
+                        <h4>#ID</h4>
+                        <p>32424</p>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                        <h4>Location</h4>
+                        <p>Belfast, NI</p>
+                        <h4>Bio</h4>
+                        <p>Gavin is a Sr Customer Manager at Cuthbert NI. As a keen property developer he seeks to
+                            better understand his Net Present Value.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="row">
+            <div *ngFor="let metric of metric_block_data" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <section class="dashboard-module box-row">
+                    <app-info-block [icon]="metric.icon" [value]="metric.value" [subtitle]="metric.subtitle"
+                        [iconColorClass]="metric.iconColorClass"></app-info-block>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<app-select-will [ChartData]="willData" (selectboxValueSelected)="childEventClicked($event)" ></app-select-will>
+
+
+<h1>Concerned Parties</h1>
+<app-table [parties]="parties" [headers]="headers"></app-table>

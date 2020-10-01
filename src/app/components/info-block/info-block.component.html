@@ -1,0 +1,11 @@
+<div class="info-block">
+    <div class="info-block--image">
+        <app-icon [id]="icon" [classList]="['icon-size-28 ' + iconColorClass]"></app-icon>
+    </div>
+    <div class="info-block--content">
+        <h1 [ngClass]=" 
+        valueState ? value.includes('-') ? 'negative' : 'positive' : ''"
+        >{{value}}</h1>
+        <p>{{subtitle}}</p>
+    </div>
+</div>

@@ -1,0 +1,120 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <section class="dashboard-module box-row">
+            <div class="welcome-block">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 vertical-center horizontal-center">
+                        <div class="NPV">
+                            <!-- <h2 class="NPV-value">{{metric_block_data.slice(-1)[0].value}}</h2>
+                            <h4 class="NPV-value">Net Present Value</h4> -->
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <br />
+                        <h2>Welcome to <br /> Asset Nexus</h2>
+                        <p>As of today, {{ today }}, your current Net Present Value is
+                            <strong>{{metric_block_data.slice(-1)[0].value}}</strong>.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <section class="dashboard-module box-row">
+                    <app-info-block [icon]="metric_block_data[0].icon" [value]="metric_block_data[0].value"
+                        [subtitle]="metric_block_data[0].subtitle"
+                        [iconColorClass]="metric_block_data[0].iconColorClass" [valueState]="true"></app-info-block>
+                </section>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <section class="dashboard-module box-row">
+                    <app-info-block [icon]="metric_block_data[1].icon" [value]="metric_block_data[1].value"
+                        [subtitle]="metric_block_data[1].subtitle"
+                        [iconColorClass]="metric_block_data[1].iconColorClass" [valueState]="true"></app-info-block>
+                </section>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <section class="dashboard-module box-row horizontal-center">
+                    <app-info-block [icon]="metric_block_data[2].icon" [value]="metric_block_data[2].value"
+                        [subtitle]="metric_block_data[2].subtitle"
+                        [iconColorClass]="metric_block_data[2].iconColorClass" [valueState]="true"></app-info-block>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <section class="dashboard-module">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <app-sunburst-chart [ChartData]="Asset_Data" [transitionTime]="1000"></app-sunburst-chart>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 vertical-center horizontal-center">
+                    <div>
+                        <h2>Assets Structure Breakdown</h2>
+                        <h3>Asset total: {{metric_block_data[0].value}}</h3>
+                        <p>This is chart represents your Asset Structure Breakdown. Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Accusantium laborum expedita dignissimos modi sed dolor cumque. Cupiditate quo sed
+                        dolorum laboriosam aut. Asperiores repudiandae id, dicta similique explicabo minima quasi?</p>    
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <section class="dashboard-module">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 vertical-center horizontal-center">
+                    <div>
+                        <h2>Debt Structure Breakdown</h2>
+                        <h3>Debt total: {{metric_block_data[1].value}}</h3>
+                        <p>This is chart represents your Debt Structure Breakdown. Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Accusantium laborum expedita dignissimos modi sed dolor cumque. Cupiditate quo sed
+                        dolorum laboriosam aut. Asperiores repudiandae id, dicta similique explicabo minima quasi?</p>    
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <app-sunburst-chart [ChartData]="Debt_Data" [transitionTime]="1000"></app-sunburst-chart>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <section class="dashboard-module">
+            <div class="row center-xs center-sm center-md center-lg">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <app-sunburst-chart [ChartData]="Insurance_Data" [transitionTime]="1000"></app-sunburst-chart>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 vertical-center horizontal-center">
+                    <div>
+                        <h2>Insurance Structure Breakdown</h2>
+                        <h3>Insurance total: {{metric_block_data[3].value}}</h3>
+                        <p>This is chart represents your Insurance Structure Breakdown. Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Accusantium laborum expedita dignissimos modi sed dolor cumque. Cupiditate quo sed
+                        dolorum laboriosam aut. Asperiores repudiandae id, dicta similique explicabo minima quasi?</p>    
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

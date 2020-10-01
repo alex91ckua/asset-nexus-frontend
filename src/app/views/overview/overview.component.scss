@@ -1,0 +1,33 @@
+@import "../../../assets/styles/Tools/variables";
+
+.NPV {
+    text-align: center;
+    padding: 90px;
+    background-color: $brand-color;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+} 
+  
+.welcome-block img {
+    max-width: 100%;
+}
+  
+.NPV-value {
+    margin: 0px;
+}
+  
+h2.NPV-value {
+    font-size: 2rem;
+    margin-top: -20px;
+}
+h4.NPV-value {
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    h2.NPV-value {
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+  }

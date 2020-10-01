@@ -1,0 +1,60 @@
+{
+    "name": "Assets",
+    "children": [
+        {
+            "name": "Properties",
+            "children": [
+                {
+                    "name": "12a Ballymacormick Rd",
+                    "value": 190000
+                },
+                {
+                    "name": "21 Bangor Ave",
+                    "value": 290000
+                },
+                {
+                    "name": "84 Lisburn Drive",
+                    "value": 87000
+                },
+                {
+                    "name": "54 Manor Hill",
+                    "value": 145000
+                }
+            ]
+        },
+        {
+            "name": "Vehicles",
+            "children": [
+                {
+                    "name": "VW Golf",
+                    "value": 8534
+                },
+                {
+                    "name": "BMW M3",
+                    "value": 15731
+                },
+                {
+                    "name": "Renault Megane",
+                    "value": 2840
+                },
+                {
+                    "name": "Porche Boxter",
+                    "value": 27840
+                }
+            ]
+        },
+        {
+            "name": "Stocks",
+            "children": [
+                {
+                    "name": "Apple",
+                    "value": 7074
+                },
+                {
+                    "name": "Google",
+                    "value": 13023
+                }
+            ]
+        }
+    ]
+}

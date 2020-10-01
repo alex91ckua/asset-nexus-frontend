@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="143px" height="25px" viewBox="0 0 143 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Base/Logo</title>
+    <defs>
+        <rect id="path-1" x="0.771084337" y="0" width="24" height="24"></rect>
+        <filter x="-4.2%" y="-4.2%" width="116.7%" height="116.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.725490196   0 0 0 0 0.71372549   0 0 0 0 0.737254902  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Component/Navigation/Top-Bar" transform="translate(-114.000000, -27.000000)">
+            <g id="Base/Logo" transform="translate(112.000000, 26.000000)">
+                <g id="Logo-Text-" transform="translate(37.000000, 2.000000)" fill="#2E384D" font-family="Rubik-Medium, Rubik" font-size="19" font-weight="400" letter-spacing="-0.475">
+                    <text id="Asset-Nexus">
+                        <tspan x="0" y="18">Asset Nexus</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.228916, 0.000000)">
+                    <g id="Rectangle" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle" fill="#344BFD" x="1.77108434" y="1" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="welcome" viewBox="0 0 300 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Chart Figure</title>
+    <defs>
+        <polygon id="path-1" points="0.980584278 4.58677919 294.780149 0.853937335 299.966717 138.615879 0.988020218 137.69754"></polygon>
+        <circle id="path-3" cx="145.599991" cy="126.599992" r="75.9999955"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-24" y="-24" width="199.999991" height="199.999991">
+            <rect x="45.5999956" y="26.5999963" width="199.999991" height="199.999991" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+        <polygon id="path-5" points="0 0 168 0 203.5 71 168 87.5 168 152 0 152"></polygon>
+        <path d="M105.999991,197.599987 C147.97363,197.599987 181.999987,163.57363 181.999987,121.599992 C181.999987,79.6263533 147.97363,45.5999963 105.999991,45.5999963 C64.0263526,45.5999963 29.9999956,79.6263533 29.9999956,121.599992 C29.9999956,163.57363 64.0263526,197.599987 105.999991,197.599987 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-24" y="-24" width="199.999991" height="199.999991">
+            <rect x="5.99999559" y="21.5999963" width="199.999991" height="199.999991" fill="white"></rect>
+            <use xlink:href="#path-7" fill="black"></use>
+        </mask>
+        <path d="M145.999991,194.599988 C183.555352,194.599988 213.999987,164.155353 213.999987,126.599992 C213.999987,89.0446311 183.555352,58.5999959 145.999991,58.5999959 C108.44463,58.5999959 77.9999951,89.0446311 77.9999951,126.599992 C77.9999951,164.155353 108.44463,194.599988 145.999991,194.599988 Z" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="135.999992" height="135.999992" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-5.000000, -15.000000)">
+            <g id="Chart-Figure" transform="translate(5.000000, 15.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="external_dashes" stroke-dasharray="1.600000023841858,5" mask="url(#mask-2)" stroke="#E0E7FF" stroke-width="48">
+                    <use mask="url(#mask-4)" xlink:href="#path-3"></use>
+                </g>
+                <g id="colored" mask="url(#mask-2)">
+                    <g transform="translate(40.000000, 5.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Mask" stroke="none" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <g id="color_dashes" stroke="none" fill="none" stroke-dasharray="1.600000023841858,5" mask="url(#mask-6)" stroke-width="48">
+                            <use stroke="#2E5BFF" mask="url(#mask-8)" xlink:href="#path-7"></use>
+                        </g>
+                    </g>
+                </g>
+                <g id="inner_dashes" stroke-dasharray="1,4.799999713897705" mask="url(#mask-2)" stroke="#E0E7FF" stroke-width="4">
+                    <use mask="url(#mask-10)" xlink:href="#path-9"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

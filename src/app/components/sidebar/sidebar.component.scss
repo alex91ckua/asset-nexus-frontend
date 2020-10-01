@@ -1,0 +1,53 @@
+@import '../../../assets/styles/Tools/variables';
+
+aside {
+    background-color: white;
+    height: 100%;
+    width: 4em;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+aside .sidebar-menu-icon {
+    height: 4em;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+aside nav {
+    padding: 5em 0em;
+}
+aside nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside nav ul li {
+    padding: 0.8em 0em;
+
+    display: flex;
+    justify-content: center;
+}
+
+aside nav ul li:hover {
+    fill: $brand-color;
+}
+
+aside nav ul a.is-active li {
+    fill: $brand-color;
+}
+
+
+@media only screen and (max-width: 600px) {
+    aside {
+        display: none;
+    }
+}

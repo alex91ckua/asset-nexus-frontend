@@ -1,0 +1,35 @@
+{
+    "name": "Insurance",
+    "children": [
+        {
+            "name": "Insurance",
+            "children": [
+                {
+                    "name": "Life",
+                    "children": [
+                        {
+                            "name": "End date: 20/12/1962",
+                            "value": 100083
+                        },
+                        {
+                            "name": "End date: 20/12/1976",
+                            "value": 140000
+                        },
+                        {
+                            "name": "End date: 20/12/1984",
+                            "value": 200000
+                        },
+                        {
+                            "name": "End date: 20/12/1991",
+                            "value": 300000
+                        }
+                    ]
+                },
+                {
+                    "name": "Building",
+                    "value": 300000
+                }
+            ]
+        }
+    ]
+}

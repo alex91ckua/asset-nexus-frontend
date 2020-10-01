@@ -1,0 +1,167 @@
+{
+    "name": "Net Present Value",
+    "children": [
+        {
+            "name": "Assets",
+            "children": [
+                {
+                    "name": "Properties",
+                    "children": [
+                        {
+                            "name": "12a Ballymacormick Rd",
+                            "value": 190000
+                        },
+                        {
+                            "name": "21 Bangor Ave",
+                            "value": 290000
+                        },
+                        {
+                            "name": "84 Lisburn Drive",
+                            "value": 87000
+                        },
+                        {
+                            "name": "54 Manor Hill",
+                            "value": 145000
+                        }
+                    ]
+                },
+                {
+                    "name": "Vehicles",
+                    "children": [
+                        {
+                            "name": "VW Golf",
+                            "value": 8534
+                        },
+                        {
+                            "name": "BMW M3",
+                            "value": 15731
+                        },
+                        {
+                            "name": "Renault Megane",
+                            "value": 2840
+                        },
+                        {
+                            "name": "Porche Boxter",
+                            "value": 27840
+                        }
+                    ]
+                },
+                {
+                    "name": "Stocks",
+                    "children": [
+                        {
+                            "name": "Apple",
+                            "value": 7074
+                        },
+                        {
+                            "name": "Google",
+                            "value": 13023
+                        }
+                    ]
+                },
+                {
+                    "name": "Insurance",
+                    "children": [
+                        {
+                            "name": "Life",
+                            "children": [
+                                {
+                                    "name": "End date: 20/12/1962",
+                                    "value": 100083
+                                },
+                                {
+                                    "name": "End date: 20/12/1976",
+                                    "value": 140000
+                                },
+                                {
+                                    "name": "End date: 20/12/1984",
+                                    "value": 200000
+                                },
+                                {
+                                    "name": "End date: 20/12/1991",
+                                    "value": 300000
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Building",
+                            "value": 300000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Debts",
+            "children": [
+                {
+                    "name": "Mortgages",
+                    "children": [
+                        {
+                            "name": "12a Ballymacormick Rd",
+                            "value": 100000
+                        },
+                        {
+                            "name": "21 Bangor Ave",
+                            "value": 190000
+                        },
+                        {
+                            "name": "84 Lisburn Drive",
+                            "value": 47000
+                        },
+                        {
+                            "name": "54 Manor Hill",
+                            "value": 95000
+                        }
+                    ]
+                },
+                {
+                    "name": "Credit card",
+                    "children": [
+                        {
+                            "name": "Danske",
+                            "value": 12000
+                        },
+                        {
+                            "name": "Halifax",
+                            "value": 22000
+                        },
+                        {
+                            "name": "Santander",
+                            "value": 3000
+                        },
+                        {
+                            "name": "Monzo",
+                            "value": 19000
+                        }
+                    ]
+                },
+                {
+                    "name": "Bank Loans",
+                    "children": [
+                        {
+                            "name": "Danske",
+                            "value": 30000
+                        },
+                        {
+                            "name": "Halifax",
+                            "value": 19000
+                        },
+                        {
+                            "name": "Student Loan",
+                            "value": 19000
+                        }
+                    ]
+                },
+                {
+                    "name": "Personal",
+                    "value": 6000
+                },
+                {
+                    "name": "Auto Loan",
+                    "value": 3322
+                }
+            ]
+        }
+    ]
+}

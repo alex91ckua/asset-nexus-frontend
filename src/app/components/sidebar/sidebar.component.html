@@ -1,0 +1,37 @@
+<aside>
+    <!-- <div class="sidebar-menu-icon">
+        <app-icon [id]="'menuicon'" [classList]="['icon-size-16']"></app-icon>
+    </div> -->
+    <nav>
+        <ul>
+            <a routerLink="/overview" [routerLinkActive]="['is-active']" title="Overview" class="tooltip">
+                <span class="tooltiptext">Overview</span>
+                <li>
+                    <!-- <span>Dashboard</span> -->
+                    <app-icon [id]="'dashboard'" [classList]="['icon-size-16']"></app-icon>
+                </li>
+            </a>
+            <a routerLink="/timeline" [routerLinkActive]="['is-active']" title="Timeline" class="tooltip">
+                <span class="tooltiptext">Timeline</span>
+                <li>
+                    <!-- <span>Settings</span> -->
+                    <app-icon [id]="'dynamic'" [classList]="['icon-size-16']"></app-icon>
+                </li>
+            </a>
+            <a routerLink="/portfolio" [routerLinkActive]="['is-active']" title="Portfolio" class="tooltip">
+                <span class="tooltiptext">Portfolio</span>
+                <li>
+                    <!-- <span>Your Will</span> -->
+                    <app-icon [id]="'portfolio'" [classList]="['icon-size-16']"></app-icon>
+                </li>
+            </a>
+            <a routerLink="/documentation" [routerLinkActive]="['is-active']" title="Documentation" class="tooltip">
+                <span class="tooltiptext">Documentation</span>
+                <li>
+                    <!-- <span>Portfolio</span> -->
+                    <app-icon [id]="'will'" [classList]="['icon-size-16']"></app-icon>
+                </li>
+            </a>
+        </ul>
+    </nav>
+</aside>

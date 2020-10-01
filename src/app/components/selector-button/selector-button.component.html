@@ -1,0 +1,7 @@
+<button *ngFor="let item of this.buttonDataset" 
+        (click)="selectorClick(item.key)" 
+        [ngClass]="{'is-not-active': item.opacity == 0}"
+        [style.border-left]="'4px solid ' + item.color">
+    <span class="itemnName">{{item.key}}</span>
+    <span class="currentValue">£{{item.currentValue}}k</span>
+</button>

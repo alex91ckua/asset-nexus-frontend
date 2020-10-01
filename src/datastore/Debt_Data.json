@@ -1,0 +1,72 @@
+{
+    "name": "Debts",
+    "children": [
+        {
+            "name": "Mortgages",
+            "children": [
+                {
+                    "name": "12a Ballymacormick Rd",
+                    "value": 100000
+                },
+                {
+                    "name": "21 Bangor Ave",
+                    "value": 190000
+                },
+                {
+                    "name": "84 Lisburn Drive",
+                    "value": 47000
+                },
+                {
+                    "name": "54 Manor Hill",
+                    "value": 95000
+                }
+            ]
+        },
+        {
+            "name": "Credit card",
+            "children": [
+                {
+                    "name": "Danske",
+                    "value": 12000
+                },
+                {
+                    "name": "Halifax",
+                    "value": 22000
+                },
+                {
+                    "name": "Santander",
+                    "value": 3000
+                },
+                {
+                    "name": "Monzo",
+                    "value": 19000
+                }
+            ]
+        },
+        {
+            "name": "Bank Loans",
+            "children": [
+                {
+                    "name": "Danske",
+                    "value": 30000
+                },
+                {
+                    "name": "Halifax",
+                    "value": 19000
+                },
+                {
+                    "name": "Student Loan",
+                    "value": 19000
+                }
+            ]
+        },
+        {
+            "name": "Personal",
+            "value": 6000
+        },
+        {
+            "name": "Auto Loan",
+            "value": 3322
+        }
+    ]
+}

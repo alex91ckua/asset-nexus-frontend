@@ -1,0 +1,27 @@
+// Shared
+@import "../../../assets/styles/Tools/variables";
+
+button {
+    display: inline-flex;
+    justify-content: space-between;
+    border: none;
+    border-radius: 2px;
+    border-left: 4px solid $brand-color--alt;
+    background-color: #fff;
+    padding: 20px 30px;
+    min-width: 280px;
+    text-align: left;
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased;
+    margin: 0px 0px 10px 10px;
+    cursor: pointer;
+    color: #000;
+}
+
+button:focus {
+    outline: none;
+}
+
+button.is-not-active {
+    opacity: 0.5;
+}

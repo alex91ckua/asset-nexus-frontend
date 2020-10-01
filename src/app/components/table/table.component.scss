@@ -1,0 +1,90 @@
+@import "../../../assets/styles/Tools/variables";
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0px 1rem;
+}  
+
+thead tr {
+    background: none;
+}
+
+tbody tr {
+    background: #fff;
+}
+
+tbody tr:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+th {
+    padding: 0px 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+td {
+    padding: 25px 30px;
+}
+
+td img {
+    max-width: 2rem;
+}
+
+td:first-child,
+td:last-child {
+    color: $brand-color;
+}
+
+td:first-child {
+    display: flex;
+}
+
+td:first-child > .name-content {
+    padding-left: 1rem;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+
+
+// Tablesort arrow 
+
+th[role=columnheader]:not(.no-sort) {
+	cursor: pointer;
+}
+
+th[role=columnheader]:not(.no-sort):after {
+	content: '';
+	float: right;
+	margin-top: 7px;
+	border-width: 0 4px 4px;
+	border-style: solid;
+	border-color: #404040 transparent;
+	visibility: hidden;
+	opacity: 0;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+th[aria-sort=ascending]:not(.no-sort):after {
+	border-bottom: none;
+	border-width: 4px 4px 0;
+}
+
+th[aria-sort]:not(.no-sort):after {
+	visibility: visible;
+	opacity: 0.4;
+}
+
+th[role=columnheader]:not(.no-sort):hover:after {
+	visibility: visible;
+	opacity: 1;
+}

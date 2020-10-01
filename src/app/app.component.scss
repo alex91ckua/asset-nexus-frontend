@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;  
+}
+
+.main {
+    display: flex;
+    flex: 1;  
+    flex-direction: column;
+}
+
+nav {
+    order: -1;    /* put the nav on the left */
+}
+
+
+@media (min-width: 768px) {
+    .main {
+      flex-direction: row;
+      flex: 1;
+    }
+    .main .main-body {
+      display: block;
+      flex: 1 1 50%;
+      margin: 50px;
+      box-sizing: border-box;
+    }
+    .nav {
+      flex: 0 0 12em;     /* 12em is the width of the columns */    
+    }
+  }
+  

@@ -1,0 +1,98 @@
+.icon {
+    display: block;
+}
+
+.icon-size-02 {
+    width: remify(02);
+    height: remify(02);
+}
+
+.icon-size-04 {
+    width: remify(04);
+    height: remify(04);
+}
+
+.icon-size-06 {
+    width: remify(06);
+    height: remify(06);
+}
+
+.icon-size-08 {
+    width: remify(08);
+    height: remify(08);
+}
+
+.icon-size-10 {
+    width: remify(10);
+    height: remify(10);
+}
+
+.icon-size-12 {
+    width: remify(12);
+    height: remify(12);
+}
+
+.icon-size-14 {
+    width: remify(14);
+    height: remify(14);
+}
+
+.icon-size-16 {
+    width: remify(16);
+    height: remify(16);
+}
+
+.icon-size-18 {
+    width: remify(18);
+    height: remify(18);
+}
+.icon-size-20 {
+    width: remify(20);
+    height: remify(20);
+}
+.icon-size-22 {
+    width: remify(22);
+    height: remify(22);
+}
+.icon-size-24 {
+    width: remify(24);
+    height: remify(24);
+}
+.icon-size-26 {
+    width: remify(26);
+    height: remify(26);
+}
+.icon-size-28 {
+    width: remify(28);
+    height: remify(28);
+}
+.icon-size-30 {
+    width: remify(30);
+    height: remify(30);
+}
+.icon-size-32 {
+    width: remify(32);
+    height: remify(32);
+}
+.icon-size-34 {
+    width: remify(34);
+    height: remify(34);
+}
+
+.icon-color-brand * {
+    fill: $brand-color;    
+}
+.icon-color-brand-alt * {
+    fill: $brand-color--alt;    
+}
+.icon-color-base-grey * {
+    fill: $base-grey;    
+}
+
+.icon-color-negative {
+    fill: $base-red;
+}
+
+.icon-color-positive {
+    fill: $base-green;
+}

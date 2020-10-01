@@ -1,0 +1,59 @@
+/* Style the lines by removing the fill and applying a stroke */
+.line {
+    fill: none;
+    stroke: #ffab00;
+    stroke-width: 3;
+}
+  
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: #ffab00;
+    stroke: #fff;
+}
+  
+.focus circle {
+    fill: none;
+    stroke: steelblue;
+}
+
+
+.refLine {
+    fill: none;
+    stroke: purple;
+    stroke-width: 2.5px;
+    stroke-dasharray: 5 5;
+}
+
+div.tooltip-donut {
+    position: absolute;
+    text-align: left;
+    padding: .5rem;
+    background: #FFFFFF;
+    color: #313639;
+    border: 1px solid #313639;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 1rem;
+}
+ 
+
+// bug fix to remove line around outside of chart when adding gridlines
+.grid path {
+    stroke-width: 0;
+}
+
+.axis line,
+.axis path {
+    stroke: #8097B1;
+    opacity: 0.4;
+}
+
+.axis text {
+    fill: #8097B1;
+    opacity: 0.4;
+}

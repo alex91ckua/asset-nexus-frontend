@@ -1,0 +1,17 @@
+<h1>Portfolio</h1>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="row">
+            <div *ngFor="let metric of metric_block_data" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <section class="dashboard-module box-row">
+                    <app-info-block [icon]="metric.icon" [value]="metric.value" [subtitle]="metric.subtitle"
+                        [iconColorClass]="metric.iconColorClass"></app-info-block>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h1>Portfolio Items</h1>
+<app-table [parties]="parties" [headers]="headers"></app-table>

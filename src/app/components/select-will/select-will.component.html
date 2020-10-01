@@ -1,0 +1,6 @@
+<select [(ngModel)]="selectboxValue" (change)="filter()" onchange="window.open(this.options[this.selectedIndex].value);">
+    <option selected="selected" disabled value="Please select an item">View Will</option>
+    <ng-container *ngFor="let item of this.items">
+        <option value="{{item.link}}"> <a href="/assets/file.pdf"> {{item.name}}</a></option>
+    </ng-container>
+</select>
