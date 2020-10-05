@@ -9,7 +9,7 @@ if (environment.production) {
 }
 
 //Sprite loader for icon component
-const __svg__ = { path: 'assets/icons/*.svg', name: 'assets/icons/sprite.svg'};
+const __svg__ = { path: './assets/icons/**/*.svg', name: 'assets/icons/[hash].sprite.svg' };
 require('webpack-svgstore-plugin/src/helpers/svgxhr')(__svg__);
 
 platformBrowserDynamic().bootstrapModule(AppModule)
