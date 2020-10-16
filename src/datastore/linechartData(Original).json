@@ -1,0 +1,710 @@
+{
+  "Assets": [
+    {
+      "Property": [
+        {
+          "key": "Property 1",
+          "values": [
+            {
+              "value": 100,
+              "date": "12/9/2000",
+              "verified": true
+            },
+            {
+              "value": 120,
+              "date": "5/1/2001",
+              "verified": true
+            },
+            {
+              "value": 105,
+              "date": "10/30/2002",
+              "verified": true
+            },
+            {
+              "value": 150,
+              "date": "4/18/2003",
+              "verified": true
+            },
+            {
+              "value": 245,
+              "date": "4/18/2004",
+              "verified": true
+            },
+            {
+              "value": 220,
+              "date": "4/18/2005",
+              "verified": true
+            },
+            {
+              "value": 160,
+              "date": "4/18/2006",
+              "verified": true
+            },
+            {
+              "value": 140,
+              "date": "4/18/2007",
+              "verified": true
+            },
+            {
+              "value": 160,
+              "date": "4/18/2008",
+              "verified": true
+            },
+            {
+              "value": 180,
+              "date": "4/18/2009",
+              "verified": true
+            },
+            {
+              "value": 250,
+              "date": "4/18/2010",
+              "verified": true
+            },
+            {
+              "value": 200,
+              "date": "4/18/2011",
+              "verified": true
+            },
+            {
+              "value": 120,
+              "date": "4/18/2012",
+              "verified": true
+            },
+            {
+              "value": 100,
+              "date": "4/18/2013",
+              "verified": false
+            },
+            {
+              "value": 170,
+              "date": "4/18/2014",
+              "verified": false
+            },
+            {
+              "value": 270,
+              "date": "4/18/2015",
+              "verified": false
+            },
+            {
+              "value": 220,
+              "date": "4/18/2016",
+              "verified": true
+            },
+            {
+              "value": 210,
+              "date": "2/6/2017",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "key": "Property 2",
+          "values": [
+            {
+              "value": 55,
+              "date": "12/9/2000",
+              "verified": true
+            },
+            {
+              "value": 60,
+              "date": "5/1/2001",
+              "verified": true
+            },
+            {
+              "value": 80,
+              "date": "10/30/2002",
+              "verified": true
+            },
+            {
+              "value": 90,
+              "date": "4/18/2003",
+              "verified": true
+            },
+            {
+              "value": 110,
+              "date": "4/18/2004",
+              "verified": false
+            },
+            {
+              "value": 140,
+              "date": "4/18/2005",
+              "verified": false
+            },
+            {
+              "value": 140,
+              "date": "4/18/2006",
+              "verified": false
+            },
+            {
+              "value": 70,
+              "date": "4/18/2007",
+              "verified": false
+            },
+            {
+              "value": 80,
+              "date": "4/18/2008",
+              "verified": false
+            },
+            {
+              "value": 135,
+              "date": "4/18/2009",
+              "verified": true
+            },
+            {
+              "value": 190,
+              "date": "4/18/2010",
+              "verified": true
+            },
+            {
+              "value": 160,
+              "date": "4/18/2011",
+              "verified": true
+            },
+            {
+              "value": 90,
+              "date": "4/18/2012",
+              "verified": true
+            },
+            {
+              "value": 80,
+              "date": "4/18/2013",
+              "verified": true
+            },
+            {
+              "value": 140,
+              "date": "4/18/2014",
+              "verified": true
+            },
+            {
+              "value": 220,
+              "date": "4/18/2015",
+              "verified": true
+            },
+            {
+              "value": 180,
+              "date": "4/18/2016",
+              "verified": true
+            },
+            {
+              "value": 160,
+              "date": "2/6/2017",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "Other": [
+        {
+          "key": "Pension",
+          "values": [
+            {
+              "value": 56,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 59,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 17,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 27,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 30,
+              "date": "2/6/2040",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "key": "Auto 1",
+          "values": [
+            {
+              "value": 36,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 9,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 37,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 37,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 39,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "key": "Auto 2",
+          "values": [
+            {
+              "value": 12,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 74,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 54,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 34,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 59,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "Expected_Dataset": [
+        {
+          "key": "Verified Valuation",
+          "values": [
+            {
+              "value": 56,
+              "date": "12/9/2017",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "key": "Example Zoopla",
+          "values": [
+            {
+              "value": 36,
+              "date": "12/9/2015",
+              "verified": false
+            },
+            {
+              "value": 9,
+              "date": "5/1/2016",
+              "verified": false
+            },
+            {
+              "value": 37,
+              "date": "10/30/2017",
+              "verified": false
+            },
+            {
+              "value": 37,
+              "date": "4/18/2019",
+              "verified": false
+            },
+            {
+              "value": 39,
+              "date": "2/6/2020",
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Debts": [
+    {
+      "Mortgages": [
+        {
+          "key": "Property 1",
+          "values": [
+            {
+              "value": 31206,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 112329,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 12337,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 12437,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 234439,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "key": "Property 2",
+          "values": [
+            {
+              "value": 37706,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 567659,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 356777,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 786317,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 323419,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "key": "Property 3",
+          "values": [
+            {
+              "value": 675306,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 5679,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 56737,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 75537,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 36579,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "key": "Property 4",
+          "values": [
+            {
+              "value": 3063243,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 324239,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 3234237,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 3233247,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 3232449,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "Other Loans": [
+        {
+          "key": "Danske",
+          "values": [
+            {
+              "value": 3063,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 9234,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 3723,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 3743,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 2339,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "key": "Santander",
+          "values": [
+            {
+              "value": 5306,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 4449,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 3337,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 2237,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 1139,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "Credit Cards": [
+        {
+          "key": "AIB",
+          "values": [
+            {
+              "value": 1306,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 2129,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 6737,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 7637,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 8639,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "key": "Halifax",
+          "values": [
+            {
+              "value": 3064,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 9454,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 3457,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 3754,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 3459,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Insurance": [
+    {
+      "Life Policies": [
+        {
+          "key": "Policy 1",
+          "values": [
+            {
+              "value": 45306,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 4459,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 3877,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 3877,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 3978,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "key": "Policy 2",
+          "values": [
+            {
+              "value": 3706,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 7889,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 7837,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 3775,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 3569,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "Building Policies": [
+        {
+          "key": "Policy 1",
+          "values": [
+            {
+              "value": 3076,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 3439,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 3657,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 3657,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 3659,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "key": "Policy 2",
+          "values": [
+            {
+              "value": 306,
+              "date": "12/9/2015",
+              "verified": true
+            },
+            {
+              "value": 569,
+              "date": "5/1/2016",
+              "verified": true
+            },
+            {
+              "value": 337,
+              "date": "10/30/2017",
+              "verified": true
+            },
+            {
+              "value": 3127,
+              "date": "4/18/2019",
+              "verified": true
+            },
+            {
+              "value": 399,
+              "date": "2/6/2020",
+              "verified": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
