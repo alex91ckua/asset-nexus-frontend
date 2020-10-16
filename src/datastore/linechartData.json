@@ -9,6 +9,16 @@
               "value": 150000,
               "date": "16/10/2020",
               "verified": false
+            },
+            {
+              "value": 180000,
+              "date": "16/11/2020",
+              "verified": false
+            },
+            {
+              "value": 130000,
+              "date": "16/12/2020",
+              "verified": false
             }
           ]
         },
@@ -56,6 +66,21 @@
             {
               "value": 115000,
               "date": "03/03/2018",
+              "verified": true
+            },
+            {
+              "value": 125000,
+              "date": "03/03/2019",
+              "verified": true
+            },
+            {
+              "value": 145000,
+              "date": "03/03/2020",
+              "verified": true
+            },
+            {
+              "value": 185000,
+              "date": "03/03/2021",
               "verified": true
             }
           ]
