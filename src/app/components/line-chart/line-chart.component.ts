@@ -421,7 +421,7 @@ export class LineChartComponent implements OnInit {
         enter
           .append("circle")
           .attr("class", "points")
-          // .style('clip-path', 'url(#clip)') //<-- apply clipping
+          .style("clip-path", "url(#clipForPoints)") //<-- apply clipping
           .style("fill", (d, i) => {
             return d.verified === true ? d.color : "#fff8ee";
           })
@@ -532,6 +532,15 @@ export class LineChartComponent implements OnInit {
       .attr("width", this.width - 40)
       .attr("height", this.height)
       .attr("transform", "translate(30,0)");
+
+    d3.select("#linechart")
+      .append("defs")
+      .append("clipPath")
+      .attr("id", "clipForPoints")
+      .append("rect")
+      .attr("width", this.width - 40)
+      .attr("height", this.height)
+      .attr("transform", "translate(22,0)");
 
     d3.select("#linechart .brush").remove(); // clears brush scrolling element
 
